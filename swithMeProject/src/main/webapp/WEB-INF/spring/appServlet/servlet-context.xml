@@ -23,6 +23,14 @@
 	
 	<context:component-scan base-package="com.kh.swithme" />
 	
+	<!-- 인터셉터부분 -->
+	<!-- <interceptors>
+		<interceptor>
+			<mapping path="/myPage.me"/>
+			<mapping path="/enrollForm.bo"/>
+			<beans:bean class="com.kh.swithme.common.interceptor.LoginInterceptor" id="loginInterceptor"></beans:bean>		
+		</interceptor>
+	</interceptors>	 -->
 	
 	
 </beans:beans>
