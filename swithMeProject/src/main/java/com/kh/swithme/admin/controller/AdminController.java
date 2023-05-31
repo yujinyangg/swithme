@@ -20,5 +20,7 @@ public class AdminController {
 	
 	//나는 충돌이 처음이니까
 	// 반가워
+	
+	
 
 }
