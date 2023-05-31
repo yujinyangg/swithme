@@ -8,6 +8,7 @@
 </head>
 <body>
 
+
 	<jsp:forward page="WEB-INF/views/common/header.jsp"/>
 	
 	<!-- 유진 확인 주석 -->
@@ -16,5 +17,6 @@
 	<!-- 방가방가 -->
 	
 	<!-- 하이하이 -->
+
 </body>
 </html>
