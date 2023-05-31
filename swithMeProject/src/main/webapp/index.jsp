@@ -11,5 +11,6 @@
 	<jsp:forward page="WEB-INF/views/common/header.jsp"/>
 	
 	<!-- 유진 확인 주석 -->
+	<!-- 유진 -->
 </body>
 </html>
