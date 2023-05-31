@@ -1,5 +1,15 @@
 #STS
+
+ignore**
+
 .metadata
+
+.class
+
+/target
+
+Servers
+
 
 # Compiled class file
 *.class
