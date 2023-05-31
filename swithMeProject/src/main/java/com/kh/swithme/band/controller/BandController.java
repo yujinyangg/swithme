@@ -4,4 +4,5 @@ public class BandController {
 
 	
 	//뭐야..? 당황스럽
+	// 그래서 된다는거야 ? 
 }
