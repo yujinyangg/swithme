@@ -14,4 +14,6 @@ public class AdminController {
 	
 	
 	// ㅇ너리ㅏㅇㄴ
+	
+	//나는 충돌이 처음이니까
 }
