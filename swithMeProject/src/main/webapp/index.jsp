@@ -9,5 +9,7 @@
 <body>
 
 	<jsp:forward page="WEB-INF/views/common/header.jsp"/>
+	
+	<!-- 유진 확인 주석 -->
 </body>
 </html>
