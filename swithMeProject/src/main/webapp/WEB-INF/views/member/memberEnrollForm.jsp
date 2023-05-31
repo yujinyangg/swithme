@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>로그인 화면</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 
 
@@ -58,47 +59,41 @@ form input:focus{
                     <th align="left">아이디</th>
                 </tr>
                 <tr>
-                    <td><input type="text" name="memberId" placeholder="아이디를 입력하세요" style="width:160px" required><button style="height: 27px;">중복확인</button></td>
+                    <td><input onclick="writeId();" type="text" name="memberId" placeholder="아이디를 입력하세요" style="width:160px" required><button style="height: 27px;" onclick="idCheck">중복확인</button></td><br>
+                 
+               
                 </tr>
                 <tr>
-                    <td style="font-size: 10px">5 ~ 20자의 영문 소문자, 숫자 특수기호(_),(-)만 사용 가능합니다.</td>
+                    <td style="font-size: 10px; display:none;" id="idMessage" >5 ~ 20자의 영문 소문자, 숫자 특수기호(_),(-)만 사용 가능합니다.</td>
                 </tr><tr><td><br></td></tr>
 
                 <tr>
                     <th align="left">비밀번호</th>
                 </tr>
                 <tr>
-                    <td><input type="password" nmae="memberPwd" placeholder="비밀번호를 입력하세요" style="width:225px" required></td>
+                    <td><input onclick="writePwd();" type="password" nmae="memberPwd" placeholder="비밀번호를 입력하세요" style="width:225px" required></td>
                 </tr>
                 <tr>
-                    <td style="font-size: 10px;">8 ~ 16자 영문 대 소문자, 숫자, 특수문자를 사용하세요.</td>
+                    <td style="font-size: 10px; display:none; " id="pwdMessage">8 ~ 16자 영문 대 소문자, 숫자, 특수문자를 사용하세요.</td>
                 </tr><tr><td><br></td></tr>
-               
-
                 <tr>
                     <th align="left">비밀번호 재확인</th>
                 </tr>
                 <tr>
                     <td><input type="password" nmae="memberPwdChk"  style="width:225px" required>체크</td>
                 </tr><tr><td><br></td></tr>
-             
-
                 <tr>
                     <th align="left">이름</th>
                 </tr>
                 <tr>
                     <td><input type="text" name="memberName"  style="width:225px" required></td>
                 </tr><tr><td><br></td></tr>
-              
-
                 <tr>
                     <th align="left">닉네임</th>
                 </tr>
                 <tr>
                     <td><input type="text" name="nickName"  style="width:160px" required><button style="height: 27px;">중복확인</button></td>
                 </tr><tr><td><br></td></tr>
-               
-
                 <tr>
                     <th align="left">이메일</th>
                 </tr>
@@ -108,17 +103,29 @@ form input:focus{
               
                     <td><button style="width:233px; height: 35px; color: white;" required>가입하기</button></td>
                 </tr>  <tr><td><br></td></tr>
-              
-              
                 <tr>
 
                     <!-- ***모두입력하면 버튼 활성화시키기  -->
                 </tr>
-
-               
             </table>
 		</div>
     </form>
+    <script>
+    
+    	function writeId() {
+    		$('#idMessage').show();
+    		
+    	}
+    	function writePwd() {
+    		$('#pwdMessage').show();
+    		
+    
+    	function idCheck() {
+    		
+    	}	
+    	
+    </script>
+   
 
     
     
