@@ -48,6 +48,9 @@ form input:focus{
 </style>
 <body>
 
+	<jsp:include page="../common/header.jsp"/>
+	<jsp:include page="../member/myMenuBar.jsp"/>
+
     <h1 align="center">회원가입</h1>
 
     <form action="join.mem" method="post">

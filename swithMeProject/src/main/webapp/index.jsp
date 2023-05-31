@@ -9,7 +9,7 @@
 <body>
 
 
-	<!--<jsp:forward page="WEB-INF/views/member/memberEnrollForm.jsp"/>-->
+	<jsp:forward page="WEB-INF/views/member/memberEnrollForm.jsp"/>
 	
 	<!-- 유진 확인 주석 -->
 	<!-- 유진 -->

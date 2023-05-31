@@ -24,7 +24,9 @@
     </style>
 </head>
 <body>
-    <div class="wrap">
+	<div class="wrap">
+		<jsp:include page="../common/header.jsp" />
+    
         <div class="outer">
             <div class="search">
                 <form action="sRoomSearch.bo">
