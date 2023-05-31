@@ -4,10 +4,13 @@
 
 .class
 
-/target
-
 Servers
 
+MANIFEST.MF
+
+pom.properties
+
+target/
 
 # Compiled class file
 *.class
