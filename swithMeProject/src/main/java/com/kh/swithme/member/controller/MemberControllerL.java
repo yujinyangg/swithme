@@ -7,6 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MemberControllerL {
 	
 
+		
+	@RequestMapping("join.mem")
+	public String joinMember() {
+		
+		return "member/memberEnrollForm";
+	}
 	
 	
 	

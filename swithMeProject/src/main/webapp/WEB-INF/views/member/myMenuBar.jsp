@@ -8,6 +8,7 @@
 	<title>Insert title here</title>
 </head>
 <body>
+		
 	<div id="myMenuBar-area">
 		<ul id="mySide1">
 			<li><a href="#">프로필</a></li>
